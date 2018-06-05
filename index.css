@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding:0;
+}
+.phone{
+	width:320px;
+	height:600px;
+	border:2px #000 solid;
+	/*将块元素水平居中，距上下都是30*/
+	margin:30px auto;
+	/*做圆弧*/
+	border-radius: 50px;
+}
+.top{
+	width:240px;
+	height:40px;
+	/*background:red;*/
+	margin:20px auto;
+}
+.screen{
+	width:300px;
+	height:430px;
+	background:#000;
+	/*因为上面已经设置了margin:20px所以下面不用设置*/
+	margin:0px auto;
+}
+.home{
+	width:300px;
+	height:60px;
+	
+	/*只有正方形才能用百分比*/
+	
+	/*      上  左右 下*/
+	margin:10px auto 0;
+}
+.box{
+	width:150px;
+	height:15px;
+	border:1px solid #000;
+	border-radius:13px;
+	margin-top:8px;
+	margin-left:15px;
+	/*浮动:左浮动*/
+	float:right;
+}
+.circle1{
+	width:8px;
+	height:8px;
+	border-radius: 50%;
+	background:#000;
+	/*浮动:左浮动*/
+	float:right;
+	margin-top:11px;
+	margin-left:28px;
+}
+.circle2{
+	width:12px;
+	height:12px;
+	border-radius: 50%;
+	background:#000;
+	/*浮动:左浮动*/
+	float:right;
+	margin-top:9px;
+	margin-left:5px;
+}
+img{
+	width:300px;
+	height:430px;
+}
+.box1{
+	width: 40px;
+	height: 40px;
+	margin: 5px 15px 0 40px;
+	background-image: url("1.png");
+	float: left;
+	
+}
+.box2{
+	width: 40px;
+	height: 40px;
+	
+	float: left;
+	margin-left: 34px;
+	margin-top: 5px;
+	background-image: url("2.png");
+	
+}
+.box3{
+	width: 40px;
+	height: 40px;
+	
+	float: left;
+	margin-left:49px; 
+	margin-top: 5px;
+	background-image: url("3.png");
+}
